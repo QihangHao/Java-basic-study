@@ -9,7 +9,7 @@ public class RedPacketGenerator {
     public static void redPacketGenerator(double money, int people) {
 
         double min = 0.01;
-        double redMoney = 0;
+        double redMoney ;
         for (int i = 0; i < people; i++){
             if(i == people - 1){
                 redMoney = (double)Math.round(money*100)/100;
