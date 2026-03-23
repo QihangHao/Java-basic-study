@@ -43,7 +43,9 @@ class Student1 {
         System.out.println(name + "学习学习学习");
     }
 }
-
+/**
+ * @author 郝启航
+ */
 public class Students1 {
     static void main() {
         Student1  student =new Student1("人",18);
